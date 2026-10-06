@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研机制图自动绘制与矢量交付"
+  short_description: "上传研究信息，自动提取机制、绘制参考图，并交付 SVG、TIFF 和 PDF"
+  default_prompt: "使用 $zjx-research-mechanism，根据我上传的研究信息提取机制链路，先制定本图专属设计说明，再生成精细生物插画参考图并以原生 SVG 高度还原，交付 PNG 预览、SVG、600 dpi TIFF 和 PDF。"
