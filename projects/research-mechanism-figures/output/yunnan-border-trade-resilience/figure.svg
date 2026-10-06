@@ -1,0 +1,364 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="svg-title svg-desc">
+  <title id="svg-title">外部冲击下云南沿边县域贸易-网络-社会生态韧性机制</title>
+  <desc id="svg-desc">A layered editable mechanism diagram linking external shock, trade recovery R, network function N or potential condition P, and social-ecological resilience outcomes under border-interface moderation.</desc>
+  <defs>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6FAFD"/>
+      <stop offset="0.62" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF4F8"/>
+    </linearGradient>
+    <linearGradient id="trade-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E7FAF6"/>
+      <stop offset="1" stop-color="#CDEFE8"/>
+    </linearGradient>
+    <linearGradient id="network-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EEF4FF"/>
+      <stop offset="1" stop-color="#E1EAFF"/>
+    </linearGradient>
+    <linearGradient id="outcome-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF2F4"/>
+      <stop offset="1" stop-color="#F5FBF4"/>
+    </linearGradient>
+    <linearGradient id="method-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#687888"/>
+      <stop offset="1" stop-color="#A8B3BE"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#19324D" flood-opacity="0.13"/>
+    </filter>
+    <filter id="small-shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#19324D" flood-opacity="0.16"/>
+    </filter>
+    <marker id="arrow-solid" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#19324D"/>
+    </marker>
+    <marker id="arrow-trade" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="arrow-net" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4361EE"/>
+    </marker>
+    <marker id="arrow-hyp" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="arrow-social" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#D95D6A"/>
+    </marker>
+    <marker id="arrow-eco" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6BBF59"/>
+    </marker>
+    <style>
+      .font { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", Arial, sans-serif; }
+      .title { font-size: 31px; font-weight: 800; fill: #19324D; }
+      .module-title { font-size: 20px; font-weight: 800; fill: #FFFFFF; }
+      .label { font-size: 14px; font-weight: 650; fill: #19324D; }
+      .small { font-size: 12px; fill: #405469; }
+      .micro { font-size: 10.5px; fill: #5C6B78; }
+      .legend { font-size: 11.5px; fill: #19324D; }
+      .supported { stroke: #19324D; stroke-width: 3; fill: none; marker-end: url(#arrow-solid); }
+      .trade-arrow { stroke: #2A9D8F; stroke-width: 3; fill: none; marker-end: url(#arrow-trade); }
+      .net-arrow { stroke: #4361EE; stroke-width: 3; fill: none; marker-end: url(#arrow-net); }
+      .hyp-arrow { stroke: #E9A23B; stroke-width: 2.5; fill: none; stroke-dasharray: 8 7; marker-end: url(#arrow-hyp); }
+      .dash-gray { stroke: #7A8793; stroke-width: 2; fill: none; stroke-dasharray: 7 6; }
+      .card { fill: #FFFFFF; stroke-width: 1.4; filter: url(#small-shadow); }
+      .chip { fill: #FFFFFF; stroke-width: 1.4; }
+    </style>
+  </defs>
+
+  <g id="background">
+    <rect id="canvas-bg" width="1600" height="1000" fill="url(#bg-grad)"/>
+    <path id="mountains-far" d="M0 128 C70 95 118 112 175 78 C238 40 290 108 358 72 C435 30 488 108 552 75 C618 38 682 86 733 62 C816 22 890 105 975 68 C1048 36 1115 93 1177 60 C1250 22 1306 97 1375 66 C1445 36 1510 86 1600 48 L1600 178 L0 178 Z" fill="#DAE6EA" opacity="0.58"/>
+    <path id="mountains-near" d="M0 174 C85 136 170 176 245 128 C318 83 402 162 472 126 C548 84 612 154 690 118 C775 78 850 165 933 117 C1015 73 1080 151 1150 111 C1225 68 1290 148 1365 108 C1442 70 1512 124 1600 98 L1600 216 L0 216 Z" fill="#C9D9DB" opacity="0.48"/>
+    <path id="subtle-map-line-1" d="M150 186 C290 225 376 174 505 214 C657 260 748 194 888 226 C1005 253 1118 202 1230 230 C1362 262 1466 214 1560 238" stroke="#B7CDD5" stroke-width="2" fill="none" opacity="0.55"/>
+    <path id="subtle-map-line-2" d="M72 254 C238 286 356 246 500 282 C658 321 776 262 930 302 C1090 344 1235 290 1416 318" stroke="#D3E1E5" stroke-width="1.4" fill="none" stroke-dasharray="9 10" opacity="0.75"/>
+  </g>
+
+  <g id="title-label" class="font">
+    <text x="800" y="52" text-anchor="middle" class="title">外部冲击下云南沿边县域贸易-网络-社会生态韧性机制</text>
+  </g>
+
+  <g id="interface-layer">
+    <path id="interface-ribbon" d="M370 112 C640 54 1002 54 1270 112 C1265 136 1261 160 1255 184 C1008 132 650 132 384 184 C378 160 374 136 370 112 Z" fill="#DCEBFF" stroke="#7FA8DF" stroke-width="2" opacity="0.82"/>
+    <g id="border-interface" class="font">
+      <text x="820" y="138" text-anchor="middle" font-size="20" font-weight="800" fill="#19324D">中缅 / 中老 / 中越边境界面</text>
+      <text x="510" y="165" text-anchor="middle" class="small">市场依赖</text>
+      <text x="820" y="165" text-anchor="middle" class="small">制度衔接</text>
+      <text x="1128" y="165" text-anchor="middle" class="small">治理执行</text>
+    </g>
+    <path id="interface-to-network" d="M820 184 C815 242 815 260 815 308" class="hyp-arrow"/>
+    <path id="interface-to-outcome" d="M1138 184 C1216 236 1268 278 1292 352" class="hyp-arrow"/>
+  </g>
+
+  <g id="modules">
+    <g id="module-trade">
+      <rect x="22" y="188" width="498" height="660" rx="18" fill="url(#trade-grad)" opacity="0.95"/>
+      <rect x="22" y="188" width="498" height="56" rx="18" fill="#2A9D8F"/>
+      <g id="module-1-label" class="font">
+        <text x="271" y="225" text-anchor="middle" class="module-title">问题一：联系变化与贸易恢复 R</text>
+      </g>
+    </g>
+    <g id="module-network">
+      <rect x="536" y="188" width="632" height="660" rx="18" fill="url(#network-grad)" opacity="0.96"/>
+      <rect x="536" y="188" width="632" height="56" rx="18" fill="#4361EE"/>
+      <g id="module-2-label" class="font">
+        <text x="852" y="225" text-anchor="middle" class="module-title">问题二：口岸-通道-腹地网络功能 N / 潜在条件 P</text>
+      </g>
+    </g>
+    <g id="module-outcome">
+      <rect x="1184" y="188" width="394" height="660" rx="18" fill="url(#outcome-grad)" opacity="0.96"/>
+      <rect x="1184" y="188" width="394" height="56" rx="18" fill="#D95D6A"/>
+      <g id="module-3-label" class="font">
+        <text x="1381" y="225" text-anchor="middle" class="module-title">问题三：社会-生态状态响应与界面过滤</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="trade-layer" class="font">
+    <g id="external-shock">
+      <rect x="42" y="260" width="218" height="90" rx="12" class="card" stroke="#2A9D8F"/>
+      <path d="M72 304 C82 286 104 290 108 308 C123 304 136 315 128 330 L64 330 C50 323 56 306 72 304 Z" fill="#42677E" opacity="0.95"/>
+      <path d="M76 336 l-13 21 M99 336 l-10 22 M121 336 l-13 21" stroke="#42677E" stroke-width="3.5" stroke-linecap="round"/>
+      <text x="166" y="286" text-anchor="middle" class="label">外部冲击</text>
+      <text x="166" y="312" text-anchor="middle" class="small">自然灾害 / 公共事件</text>
+      <text x="166" y="333" text-anchor="middle" class="small">地缘冲突 / 市场波动</text>
+    </g>
+    <g id="exposure-identification">
+      <rect x="42" y="374" width="218" height="98" rx="12" class="card" stroke="#2A9D8F"/>
+      <path d="M72 394 h42 l22 22 v38 h-64 z" fill="#F3F8FB" stroke="#42677E" stroke-width="4"/>
+      <path d="M113 394 v24 h23" fill="none" stroke="#42677E" stroke-width="4"/>
+      <text x="153" y="406" text-anchor="middle" class="label">事件原文/暴露范围/</text>
+      <text x="153" y="427" text-anchor="middle" class="label">反事实资格</text>
+      <text x="153" y="450" text-anchor="middle" class="small">事件识别与口径审计</text>
+    </g>
+    <g id="initial-trade-structure">
+      <rect x="42" y="498" width="218" height="94" rx="12" class="card" stroke="#2A9D8F"/>
+      <rect x="72" y="550" width="14" height="22" fill="#2F6380"/><rect x="92" y="532" width="14" height="40" fill="#2F6380"/><rect x="112" y="514" width="14" height="58" fill="#2F6380"/>
+      <text x="166" y="530" text-anchor="middle" class="label">初始贸易结构</text>
+      <text x="166" y="553" text-anchor="middle" class="small">产品结构 / 市场结构</text>
+      <text x="166" y="573" text-anchor="middle" class="small">贸易规模</text>
+    </g>
+    <g id="market-dependence">
+      <rect x="42" y="618" width="218" height="94" rx="12" class="card" stroke="#2A9D8F"/>
+      <circle cx="94" cy="662" r="10" fill="#42677E"/><circle cx="66" cy="642" r="8" fill="#42677E"/><circle cx="126" cy="638" r="8" fill="#42677E"/><circle cx="124" cy="690" r="8" fill="#42677E"/>
+      <path d="M94 662 L66 642 M94 662 L126 638 M94 662 L124 690" stroke="#42677E" stroke-width="4"/>
+      <text x="169" y="648" text-anchor="middle" class="label">伙伴市场依赖</text>
+      <text x="169" y="671" text-anchor="middle" class="small">主要伙伴 / 依赖程度</text>
+      <text x="169" y="691" text-anchor="middle" class="small">市场多元化</text>
+    </g>
+    <g id="port-condition">
+      <rect x="42" y="738" width="218" height="90" rx="12" class="card" stroke="#2A9D8F"/>
+      <path d="M74 798 h65 M85 798 v-34 h22 v34 M112 798 v-52 h30 v52" stroke="#42677E" stroke-width="5" fill="none" stroke-linejoin="round"/>
+      <text x="169" y="766" text-anchor="middle" class="label">口岸条件</text>
+      <text x="169" y="789" text-anchor="middle" class="small">口岸类型 / 基础设施</text>
+      <text x="169" y="809" text-anchor="middle" class="small">通关能力</text>
+    </g>
+    <path d="M151 350 L151 374" class="supported"/>
+    <path d="M151 472 L151 498" class="supported"/>
+    <path d="M151 592 L151 618" class="supported"/>
+    <path d="M151 712 L151 738" class="supported"/>
+
+    <g id="trade-deviation-loss-duration">
+      <rect x="300" y="260" width="200" height="220" rx="14" fill="#FFFFFF" stroke="#2A9D8F" stroke-width="1.6" stroke-dasharray="4 4" filter="url(#small-shadow)"/>
+      <path d="M326 330 L350 315 L374 337 L398 302 L424 318 L466 286" fill="none" stroke="#D95D6A" stroke-width="4"/>
+      <path d="M326 382 L350 374 L374 360 L398 350 L424 340 L466 324" fill="none" stroke="#2A9D8F" stroke-width="4"/>
+      <path d="M326 402 H466 M326 284 V402" stroke="#7A8793" stroke-width="2"/>
+      <text x="400" y="427" text-anchor="middle" class="label">冲击偏离 /</text>
+      <text x="400" y="449" text-anchor="middle" class="label">累计损失 / 恢复时长</text>
+    </g>
+    <g id="trade-recovery-r">
+      <rect x="300" y="522" width="200" height="132" rx="14" fill="#D8F4EE" stroke="#2A9D8F" stroke-width="2.5" filter="url(#small-shadow)"/>
+      <circle cx="345" cy="588" r="30" fill="#2A9D8F"/>
+      <rect x="331" y="596" width="8" height="16" fill="#FFFFFF"/><rect x="345" y="580" width="8" height="32" fill="#FFFFFF"/><rect x="359" y="565" width="8" height="47" fill="#FFFFFF"/>
+      <text x="422" y="570" text-anchor="middle" class="label">贸易恢复变量 R</text>
+      <text x="422" y="598" text-anchor="middle" class="small">恢复程度 / 恢复速度</text>
+      <text x="422" y="619" text-anchor="middle" class="small">结构变化</text>
+    </g>
+    <g id="structural-adjustment">
+      <rect x="300" y="684" width="200" height="144" rx="14" fill="#FFFFFF" stroke="#2A9D8F" stroke-width="1.6" filter="url(#small-shadow)"/>
+      <path d="M332 738 l20 -12 l20 12 v24 l-20 12 l-20 -12 z M380 738 l20 -12 l20 12 v24 l-20 12 l-20 -12 z" fill="#E7FAF6" stroke="#42677E" stroke-width="3"/>
+      <path d="M352 774 v18 M400 774 v18 M352 792 h48" stroke="#42677E" stroke-width="3"/>
+      <text x="424" y="728" text-anchor="middle" class="label">伙伴-产品-口岸</text>
+      <text x="424" y="750" text-anchor="middle" class="label">结构调整</text>
+      <text x="424" y="780" text-anchor="middle" class="small">伙伴 / 产品 / 口岸替代</text>
+      <text x="424" y="803" text-anchor="middle" class="small">集中或多元化</text>
+    </g>
+    <path d="M260 423 C280 423 280 370 300 370" class="trade-arrow"/>
+    <path d="M260 545 C280 545 280 588 300 588" class="trade-arrow"/>
+    <path d="M260 665 C280 665 280 756 300 756" class="trade-arrow"/>
+    <path d="M400 480 L400 522" class="hyp-arrow"/>
+    <path d="M400 654 L400 684" class="trade-arrow"/>
+  </g>
+
+  <g id="network-layer" class="font">
+    <g id="capacity-commodity-cost">
+      <rect x="584" y="260" width="398" height="92" rx="12" fill="#FFFFFF" stroke="#4361EE" stroke-width="1.6" stroke-dasharray="5 4" filter="url(#small-shadow)"/>
+      <text x="783" y="287" text-anchor="middle" class="label">容量 / 货类适配 / 广义成本</text>
+      <g transform="translate(620 304)">
+        <path d="M0 34 h54 M8 34 v-26 h18 v26 M32 34 v-18 h18 v18" stroke="#4361EE" stroke-width="3" fill="none"/>
+        <text x="27" y="58" text-anchor="middle" class="micro">容量</text>
+      </g>
+      <g transform="translate(746 304)">
+        <rect x="0" y="4" width="54" height="44" rx="4" fill="#EEF4FF" stroke="#4361EE" stroke-width="3"/>
+        <path d="M14 48 v-22 M28 48 v-32 M42 48 v-18" stroke="#4361EE" stroke-width="3"/>
+        <text x="27" y="58" text-anchor="middle" class="micro">货类适配</text>
+      </g>
+      <g transform="translate(872 304)">
+        <ellipse cx="26" cy="42" rx="28" ry="8" fill="#DCEBFF" stroke="#4361EE" stroke-width="2"/>
+        <path d="M-2 42 C-2 22 54 22 54 42 M-2 31 C-2 11 54 11 54 31 M-2 20 C-2 0 54 0 54 20" fill="none" stroke="#4361EE" stroke-width="2"/>
+        <text x="27" y="58" text-anchor="middle" class="micro">广义成本</text>
+      </g>
+    </g>
+    <path d="M500 588 C532 588 538 588 562 588" class="supported"/>
+    <path d="M400 654 C465 720 505 750 560 750" class="hyp-arrow"/>
+    <path d="M783 352 L783 400" class="net-arrow"/>
+
+    <g id="network-illustration">
+      <path id="hinterland-shape" d="M585 500 C650 428 724 420 790 448 C855 402 944 428 984 500 C956 590 900 645 805 660 C720 675 630 626 585 500 Z" fill="#EDF7EE" stroke="#B7C8D1" stroke-width="2.2"/>
+      <path id="port-layer" d="M605 458 C710 417 856 420 962 458" stroke="#9DB7D0" stroke-width="18" stroke-linecap="round" opacity="0.35"/>
+      <path id="channel-layer" d="M615 530 C735 480 835 500 970 550 M640 586 C720 548 840 560 930 620" stroke="#E9A23B" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <path id="county-grid-1" d="M642 480 C642 540 642 600 642 648 M718 452 C718 528 718 598 718 662 M800 438 C800 522 800 598 800 664 M884 458 C884 532 884 594 884 646 M940 492 C900 540 850 596 788 652 M615 548 C694 582 774 612 940 632" stroke="#9BB4BE" stroke-width="1.2" stroke-dasharray="6 5" opacity="0.8"/>
+      <g id="port-nodes">
+        <circle cx="642" cy="458" r="12" fill="#FFFFFF" stroke="#4361EE" stroke-width="5"/>
+        <circle cx="718" cy="452" r="12" fill="#FFFFFF" stroke="#4361EE" stroke-width="5"/>
+        <circle cx="800" cy="438" r="13" fill="#FFFFFF" stroke="#4361EE" stroke-width="5"/>
+        <circle cx="884" cy="458" r="12" fill="#FFFFFF" stroke="#4361EE" stroke-width="5"/>
+      </g>
+      <g id="hinterland-nodes" fill="#6BBF59" stroke="#FFFFFF" stroke-width="3">
+        <circle cx="622" cy="536" r="9"/><circle cx="676" cy="586" r="9"/><circle cx="744" cy="540" r="9"/><circle cx="814" cy="574" r="9"/><circle cx="880" cy="548" r="9"/><circle cx="932" cy="602" r="9"/><circle cx="716" cy="638" r="9"/><circle cx="804" cy="632" r="9"/>
+      </g>
+      <g id="crossborder-arrows">
+        <path d="M642 458 C625 418 625 390 642 365" stroke="#D95D6A" stroke-width="3.3" fill="none" marker-end="url(#arrow-social)"/>
+        <path d="M800 438 C800 395 800 365 800 342" stroke="#D95D6A" stroke-width="3.3" fill="none" marker-end="url(#arrow-social)"/>
+        <path d="M884 458 C915 420 925 388 918 358" stroke="#D95D6A" stroke-width="3.3" fill="none" marker-end="url(#arrow-social)"/>
+        <text x="632" y="388" text-anchor="middle" class="micro">中缅方向</text>
+        <text x="800" y="365" text-anchor="middle" class="micro">中老方向</text>
+        <text x="920" y="382" text-anchor="middle" class="micro">中越方向</text>
+      </g>
+      <g id="network-legend-mini" class="font">
+        <rect x="986" y="272" width="138" height="110" rx="10" fill="#FFFFFF" stroke="#B8C9D8"/>
+        <circle cx="1014" cy="294" r="8" fill="#FFFFFF" stroke="#4361EE" stroke-width="4"/>
+        <path d="M1002 321 h36" stroke="#E9A23B" stroke-width="5"/>
+        <circle cx="1014" cy="351" r="8" fill="#6BBF59"/>
+        <path d="M1002 368 h36" stroke="#D95D6A" stroke-width="4" marker-end="url(#arrow-social)"/>
+        <text x="1058" y="299" class="micro">口岸节点</text>
+        <text x="1058" y="326" class="micro">通道束</text>
+        <text x="1058" y="356" class="micro">腹地县域</text>
+        <text x="1058" y="374" class="micro">跨境方向</text>
+      </g>
+    </g>
+
+    <g id="network-n">
+      <rect x="970" y="432" width="172" height="116" rx="12" fill="#EDF3FF" stroke="#4361EE" stroke-width="3" filter="url(#small-shadow)"/>
+      <circle cx="1008" cy="490" r="26" fill="#4361EE"/>
+      <path d="M996 496 L1010 478 L1024 497 M1010 478 L1010 504" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+      <text x="1080" y="466" text-anchor="middle" class="label">实际网络功能 N</text>
+      <text x="1080" y="494" text-anchor="middle" class="small">网络连通性</text>
+      <text x="1080" y="516" text-anchor="middle" class="small">实际运行效率</text>
+      <text x="1080" y="538" text-anchor="middle" class="small">网络服务水平</text>
+    </g>
+    <g id="potential-network-p">
+      <rect x="970" y="642" width="172" height="124" rx="12" fill="#FFF4DF" stroke="#E9A23B" stroke-width="3" filter="url(#small-shadow)"/>
+      <circle cx="1008" cy="704" r="26" fill="#E9A23B"/>
+      <path d="M994 716 L1008 688 L1026 714 M1008 688 v30" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+      <text x="1080" y="678" text-anchor="middle" class="label">潜在网络条件 P</text>
+      <text x="1080" y="708" text-anchor="middle" class="small">潜在连通条件</text>
+      <text x="1080" y="730" text-anchor="middle" class="small">理论服务能力</text>
+      <text x="1080" y="752" text-anchor="middle" class="small">情景模拟结果</text>
+    </g>
+    <g id="rerouting-cascade">
+      <rect x="584" y="692" width="340" height="92" rx="12" fill="#FFFFFF" stroke="#7A8793" stroke-width="2.4" filter="url(#small-shadow)"/>
+      <path d="M638 734 h78 M660 716 l18 18 l-18 18 M704 716 l18 18 l-18 18" stroke="#42677E" stroke-width="4" fill="none"/>
+      <text x="780" y="725" text-anchor="middle" class="label">需求转移与级联脆弱性</text>
+      <text x="780" y="753" text-anchor="middle" class="small">需求转移 / 替代路径 / 级联失效</text>
+    </g>
+    <g id="exclusive-mark" class="font">
+      <path d="M1014 573 l34 34 M1048 573 l-34 34" stroke="#E31B23" stroke-width="7" stroke-linecap="round"/>
+      <text x="1080" y="596" class="label" fill="#E31B23">N 与 P 互斥</text>
+      <text x="1080" y="620" class="micro">实际 OD 不合格时仅回答潜在情景</text>
+    </g>
+    <path d="M924 738 C942 720 952 706 970 704" class="hyp-arrow"/>
+    <path d="M924 738 C948 692 956 542 970 500" class="net-arrow"/>
+    <path d="M1142 490 C1164 490 1168 490 1184 490" class="net-arrow"/>
+    <path d="M1142 704 C1164 704 1168 704 1184 704" class="hyp-arrow"/>
+  </g>
+
+  <g id="outcome-layer" class="font">
+    <g id="social-state-sh">
+      <rect x="1212" y="260" width="160" height="132" rx="14" fill="#FFF7F8" stroke="#D95D6A" stroke-width="2.2" filter="url(#small-shadow)"/>
+      <circle cx="1246" cy="306" r="24" fill="#FDE6EA" stroke="#D95D6A" stroke-width="3"/>
+      <circle cx="1237" cy="301" r="5.5" fill="#D95D6A"/><circle cx="1248" cy="298" r="6.5" fill="#D95D6A"/><circle cx="1259" cy="301" r="5.5" fill="#D95D6A"/>
+      <path d="M1234 324 C1239 313 1258 313 1263 324" fill="#D95D6A"/>
+      <text x="1308" y="292" text-anchor="middle" class="label">社会状态 SH</text>
+      <text x="1308" y="324" text-anchor="middle" class="small">就业与生计</text>
+      <text x="1308" y="346" text-anchor="middle" class="small">收入与发展机会</text>
+      <text x="1308" y="368" text-anchor="middle" class="small">社会稳定</text>
+    </g>
+    <g id="ecological-state-eh">
+      <rect x="1396" y="260" width="160" height="132" rx="14" fill="#F5FBF4" stroke="#6BBF59" stroke-width="2.2" filter="url(#small-shadow)"/>
+      <circle cx="1428" cy="306" r="24" fill="#E9F7E7" stroke="#6BBF59" stroke-width="3"/>
+      <path d="M1428 324 C1425 307 1429 291 1442 282 M1428 307 C1418 297 1414 285 1419 276 M1428 307 C1443 302 1452 292 1455 280" stroke="#3D8A4B" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+      <text x="1488" y="292" text-anchor="middle" class="label">生态状态 EH</text>
+      <text x="1488" y="324" text-anchor="middle" class="small">生态环境质量</text>
+      <text x="1488" y="346" text-anchor="middle" class="small">资源压力</text>
+      <text x="1488" y="368" text-anchor="middle" class="small">生态系统韧性</text>
+    </g>
+    <path d="M1292 392 L1292 438 L1386 438 L1386 458" class="supported"/>
+    <path d="M1476 392 L1476 438 L1386 438 L1386 458" class="supported"/>
+    <g id="resilience-trajectories">
+      <rect x="1212" y="458" width="344" height="250" rx="14" fill="#FFFFFF" stroke="#B5ADC8" stroke-width="2" filter="url(#small-shadow)"/>
+      <text x="1384" y="490" text-anchor="middle" class="label">韧性轨迹类型</text>
+      <g id="trajectory-sync">
+        <rect x="1232" y="514" width="205" height="54" rx="8" fill="#FAFBFF" stroke="#D5DBE6"/>
+        <text x="1252" y="535" class="small" font-weight="700">同步改善</text>
+        <path d="M1322 553 L1420 527" stroke="#D95D6A" stroke-width="3" marker-end="url(#arrow-social)"/>
+        <path d="M1322 558 L1420 538" stroke="#6BBF59" stroke-width="3" marker-end="url(#arrow-eco)"/>
+        <text x="1468" y="543" class="micro">社会与生态协同改善</text>
+      </g>
+      <g id="trajectory-lead">
+        <rect x="1232" y="584" width="205" height="54" rx="8" fill="#FAFBFF" stroke="#D5DBE6"/>
+        <text x="1252" y="605" class="small" font-weight="700">单侧领先</text>
+        <path d="M1322 624 L1420 596" stroke="#D95D6A" stroke-width="3" marker-end="url(#arrow-social)"/>
+        <path d="M1322 628 L1420 618" stroke="#6BBF59" stroke-width="3" marker-end="url(#arrow-eco)"/>
+        <text x="1468" y="613" class="micro">社会或生态单侧领先</text>
+      </g>
+      <g id="trajectory-lag">
+        <rect x="1232" y="654" width="205" height="54" rx="8" fill="#FAFBFF" stroke="#D5DBE6"/>
+        <text x="1252" y="675" class="small" font-weight="700">双重滞后</text>
+        <path d="M1322 698 L1420 686" stroke="#D95D6A" stroke-width="3" marker-end="url(#arrow-social)"/>
+        <path d="M1322 704 L1420 700" stroke="#6BBF59" stroke-width="3" marker-end="url(#arrow-eco)"/>
+        <text x="1468" y="690" class="micro">社会与生态双重滞后</text>
+      </g>
+    </g>
+    <g id="governance-condition">
+      <rect x="1352" y="82" width="204" height="82" rx="12" fill="#FFFFFF" stroke="#4361EE" stroke-width="1.8" stroke-dasharray="5 4" filter="url(#small-shadow)"/>
+      <text x="1454" y="108" text-anchor="middle" class="label">制度衔接与治理执行</text>
+      <text x="1402" y="134" text-anchor="middle" class="small">规则对接</text>
+      <text x="1508" y="134" text-anchor="middle" class="small">治理能力</text>
+      <text x="1402" y="154" text-anchor="middle" class="small">通关协同</text>
+      <text x="1508" y="154" text-anchor="middle" class="small">执行效果</text>
+      <path d="M1386 164 C1378 228 1378 232 1366 260" class="hyp-arrow"/>
+      <path d="M1496 164 C1494 228 1492 232 1484 260" class="hyp-arrow"/>
+    </g>
+  </g>
+
+  <g id="data-boundary" class="font">
+    <rect x="22" y="866" width="1556" height="96" rx="18" fill="#FFFFFF" stroke="#CFD8DF" filter="url(#soft-shadow)"/>
+    <rect x="22" y="866" width="520" height="96" rx="18" fill="url(#method-grad)" opacity="0.22"/>
+    <circle cx="84" cy="914" r="30" fill="#FFFFFF" stroke="#687888" stroke-width="3"/>
+    <path d="M54 906 C54 890 114 890 114 906 C114 922 54 922 54 906 M54 906 v28 C54 950 114 950 114 934 v-28" fill="none" stroke="#687888" stroke-width="4"/>
+    <text x="136" y="902" font-size="21" font-weight="800" fill="#19324D">数据边界与降阶回答</text>
+    <text x="136" y="930" class="small">数据范围：受可获得性、可比性和口径一致性约束；只使用合格数据识别。</text>
+    <text x="136" y="952" class="small">降阶回答：关键数据缺失时转向潜在情景或案例解释，不越界推出实证结论。</text>
+  </g>
+
+  <g id="legend-box" class="font">
+    <rect x="1018" y="852" width="520" height="104" rx="14" fill="#FFFFFF" stroke="#CFD8DF"/>
+    <text x="1056" y="880" font-size="15" font-weight="800" fill="#19324D">图例</text>
+    <path d="M1110 878 h54" class="supported"/>
+    <g id="legend-supported"><text x="1182" y="882" class="legend">实线：资料明确提出的研究逻辑或模块关系</text></g>
+    <path d="M1110 910 h54" class="hyp-arrow"/>
+    <g id="legend-hypothesis"><text x="1182" y="914" class="legend">虚线：待补数据、待核验或待运行模型支持的假设路径</text></g>
+    <path d="M1116 932 l24 24 M1140 932 l-24 24" stroke="#E31B23" stroke-width="5" stroke-linecap="round"/>
+    <g id="legend-exclusive"><text x="1182" y="952" class="legend">N 与 P 互斥：实际 OD 不合格时仅回答潜在情景</text></g>
+  </g>
+</svg>
