@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luna 执行 · Chat 深度决策"
+  short_description: "让 Luna 以用户口吻高频咨询 ChatGPT，由 Chat 详细决策并审查执行结果"
+  default_prompt: "使用 $zjx-luna-chat-brain 完成我的任务：在右侧浏览器建立 ChatGPT 对话，以我的口吻高频咨询，要求极为详细的回答，由 Chat 决策并验收，Luna 执行。"

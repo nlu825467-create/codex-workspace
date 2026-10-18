@@ -1,0 +1,4 @@
+interface:
+  display_name: "研究技术路线图"
+  short_description: "从研究材料提取技术路线，自动选择布局，交付清晰PNG和原生可编辑PPTX"
+  default_prompt: "使用 $zjx-research-roadmap，根据我上传的研究信息生成技术路线图，自动选择布局并交付 PNG 和可编辑 PPTX。"
