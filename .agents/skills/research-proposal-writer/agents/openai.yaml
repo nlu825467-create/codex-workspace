@@ -1,0 +1,4 @@
+interface:
+  display_name: "开题报告撰写"
+  short_description: "同等覆盖学术与专业博士，按学科论证研究贡献和整体方案，交付Word开题报告"
+  default_prompt: "使用 $research-proposal-writer，围绕我的博士选题核查学术定位与预期贡献，设计整体论文研究，交互修订并交付完整Word开题报告。"
